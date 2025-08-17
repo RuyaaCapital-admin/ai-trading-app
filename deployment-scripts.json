@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start", 
+    "lint": "next lint",
+    "deploy": "vercel",
+    "deploy:prod": "vercel --prod",
+    "type-check": "tsc --noEmit"
+  }
+}
